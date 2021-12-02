@@ -8,7 +8,7 @@ public class Exercicio07 {
         Scanner entrada = new Scanner(System.in);
         double salario;
 
-        System.out.println("Digite o salário:");
+        System.out.println("Informe o salário:");
         salario = entrada.nextDouble();
 
         if (salario <= 600) {

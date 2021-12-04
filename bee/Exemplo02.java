@@ -18,6 +18,6 @@ public class Exemplo02 {
 
         System.out.printf("A media é %f\n", 45.6754321);
 
-        System.out.printf("A media é %.2f", 45.6754321);
+        System.out.printf("A media é %.2f\n", 45.6754321);
     }
 }

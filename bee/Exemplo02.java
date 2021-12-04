@@ -2,13 +2,13 @@ public class Exemplo02 {
     public static void main(String[] args) {
 
         // printf( FORMATO, DADOS)
-        // FORMATO: 
+        // FORMATO:
         // %d = inteiro
         // %f = decimal
         // %s = texto
         // \n = pula de linha
 
-        // %.2f =  2 casas decimais, com arredondamento
+        // %.2f = 2 casas decimais, com arredondamento
 
         int valor = 10;
 
@@ -18,6 +18,6 @@ public class Exemplo02 {
 
         System.out.printf("A media é %f\n", 45.6754321);
 
-        System.out.printf("A media é %.2f\n", 45.6754321);
+        System.out.printf("A media é %.2f", 45.6754321);
     }
 }

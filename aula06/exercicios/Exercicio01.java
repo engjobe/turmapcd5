@@ -13,12 +13,13 @@ public class Exercicio01 {
         }
     }
 
+    // return devolve um valor E TERMINA a execução do método
     public static boolean ehPar(int numero) {
         if (numero % 2 == 0) {
             return true;
-        } else {
-            return false;
         }
+        return false;
+        
     }
 
 }

@@ -1,4 +1,4 @@
-package exercicios.exercicio04;
+package exercicios.exercicio02;
 
 public class Relogio {
     private int hora, minuto, segundo;

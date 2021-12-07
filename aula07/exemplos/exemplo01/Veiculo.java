@@ -1,4 +1,4 @@
-package exercicios.exercicio01;
+package exemplos.exemplo01;
 
 public class Veiculo {
     String marca, modelo;

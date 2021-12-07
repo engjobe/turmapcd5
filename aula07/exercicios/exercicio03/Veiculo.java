@@ -2,25 +2,28 @@ package exercicios.exercicio03;
 
 public class Veiculo {
     String marca, modelo;
-    double consumo;
+    private double consumo; // só pode ser usando dentro da classe
 
-    Veiculo(String marca, String modelo, double consumo) {
+    public Veiculo(String marca, String modelo, double consumo) {
         this.marca = marca;
         this.modelo = modelo;
-        this.consumo = consumo;
+        setConsumo(consumo);
     }
 
-    void exibirDados() {
+    public void exibirDados() {
         System.out.println("Marca: " + marca + " Modelo: " + modelo);
     }
 
-    public double obterConsumo() {
+    // get = obter o valor do atributo
+    public double getConsumo() {
         return consumo;
     }
 
-    public void alterarConsumo(double novoConsumo) {
+    // set = alterar o valor do atributo
+    public void setConsumo(double novoConsumo) {
         if (novoConsumo > 0) {
             consumo = novoConsumo;
         }
     }
+
 }

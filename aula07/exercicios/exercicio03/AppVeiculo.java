@@ -6,8 +6,9 @@ public class AppVeiculo {
 
         veiculo.exibirDados();
         // veiculo.consumo = -10; // erro! não é mais visível
-        veiculo.alterarConsumo(-20);
+        veiculo.setConsumo(-20);
 
-        System.out.println("Consumo: " + veiculo.obterConsumo());
+        System.out.println("Consumo: " + veiculo.getConsumo());
     }
+
 }

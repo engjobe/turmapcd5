@@ -2,7 +2,7 @@ package exercicios.exercicio03;
 
 public class Veiculo {
     String marca, modelo;
-    double consumo; // só pode ser usado dentro da classe
+    double consumo;
 
     Veiculo(String marca, String modelo, double consumo) {
         this.marca = marca;

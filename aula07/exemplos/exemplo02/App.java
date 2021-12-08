@@ -6,7 +6,7 @@ public class App {
 
         // f.nome = "José";
 
-        System.out.println(f.toString());
+        System.out.println(f);
         System.out.println(f.getNome());
     }
 }

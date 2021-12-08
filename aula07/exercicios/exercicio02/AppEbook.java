@@ -7,9 +7,10 @@ public class AppEbook {
         livro.exibirCapa();
 
         // livro.retrocederPagina();
-        // livro.irParaPagina
-
-        
+        // livro.irParaPagina(350);
+        livro.avancarPagina();
+        livro.retrocederPagina();
+        System.out.println("Pagina atual: " + livro.exibirPagina());
     }
-    
+
 }

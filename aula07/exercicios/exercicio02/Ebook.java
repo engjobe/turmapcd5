@@ -14,7 +14,7 @@ public class Ebook {
     }
 
     public void exibirCapa() {
-        System.out.println(titulo + ", " + autor + "- " + totalPaginas);
+        System.out.println(titulo + ", " + autor + " - " + totalPaginas);
     }
 
     public void avancarPagina() {
@@ -29,7 +29,7 @@ public class Ebook {
         }
     }
 
-    public int exibirPaguna() {
+    public int exibirPagina() {
         return paginaAtual;
     }
 

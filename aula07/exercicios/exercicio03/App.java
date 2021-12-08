@@ -9,6 +9,6 @@ public class App {
         System.out.println(pessoa.getDados());
         System.out.println(estudante.getDados());
         System.out.println(prof.getDados());
-
+        
     }
 }

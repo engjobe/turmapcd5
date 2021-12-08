@@ -10,5 +10,4 @@ public class AppRelogio {
 
         System.out.println(relogio.getHoraAtual());
     }
-
 }

@@ -1,7 +1,7 @@
 package exemplos.exemplo01;
 
 public class Veiculo {
-    String marca, modelo;
+    private String marca, modelo;
     private double consumo; // só pode ser usando dentro da classe
 
     public Veiculo(String marca, String modelo, double consumo) {
@@ -21,7 +21,7 @@ public class Veiculo {
 
     // set = alterar o valor do atributo
     public void setConsumo(double novoConsumo) {
-        if (novoConsumo > 0) {
+        if(novoConsumo > 0) {
             consumo = novoConsumo;
         }
     }

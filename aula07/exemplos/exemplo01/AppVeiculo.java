@@ -10,5 +10,4 @@ public class AppVeiculo {
 
         System.out.println("Consumo: " + veiculo.getConsumo());
     }
-
 }

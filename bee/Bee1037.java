@@ -20,12 +20,12 @@ public class Bee1037 { // Main
                         System.out.println("Intervalo (75,100]");
                     } else {
                         System.out.println("Fora de intervalo");
-
                     }
                 }
             }
         }
 
         entrada.close();
+        
     }
 }

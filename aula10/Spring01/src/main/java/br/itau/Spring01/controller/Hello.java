@@ -1,4 +1,4 @@
-package br.itau.Spring01.controller;
+package br.itau.spring01.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
